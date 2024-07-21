@@ -1,0 +1,22 @@
+06-25 00:30:58 com_github_MitjaNemec_SwapStubs.action_swap_stubs 91:Plugin executed on: 'darwin'
+06-25 00:30:58 com_github_MitjaNemec_SwapStubs.action_swap_stubs 92:Plugin executed with python version: '3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]'
+06-25 00:30:58 com_github_MitjaNemec_SwapStubs.action_swap_stubs 93:KiCad build version: 8.0.3
+06-25 00:30:58 com_github_MitjaNemec_SwapStubs.action_swap_stubs 94:Plugin version: 1.0.6
+
+06-25 00:30:58 com_github_MitjaNemec_SwapStubs.action_swap_stubs 95:Frame repr: <wx._core.Frame object at 0x2edc9a1f0>
+06-25 00:30:58 com_github_MitjaNemec_SwapStubs.action_swap_stubs 98:Sch frame repr: None
+06-25 00:30:58 com_github_MitjaNemec_SwapStubs.swap_stubs 95:Starting swap_stubs
+06-25 00:30:58 com_github_MitjaNemec_SwapStubs.swap_stubs 102:main sch file is: /Users/john/Desktop/Projects/SPI2TTL/SPI2TTL/SPI2TTL.kicad_sch
+06-25 00:30:58 com_github_MitjaNemec_SwapStubs.swap_stubs 103:main pcb file is: /Users/john/Desktop/Projects/SPI2TTL/SPI2TTL/SPI2TTL.kicad_pcb
+06-25 00:30:58 com_github_MitjaNemec_SwapStubs.swap_stubs 116:Swaping labels on pads: R13, L13 on fp: U1 connected to: OSPI_CS, OSPI_D7
+06-25 00:30:58 com_github_MitjaNemec_SwapStubs.swap_stubs 123:Schematics file to write: /Users/john/Desktop/Projects/SPI2TTL/SPI2TTL/FPGA.kicad_sch
+06-25 00:30:58 com_github_MitjaNemec_SwapStubs.swap_stubs 141:Symbol position: (408.94, 321.31)
+06-25 00:30:58 com_github_MitjaNemec_SwapStubs.swap_stubs 168:Pin positions: [393.7, 262.89], [393.7, 288.29]
+06-25 00:30:58 com_github_MitjaNemec_SwapStubs.swap_stubs 191:net 1 labels: [[Symbol('label'), 'OSPI_CS', [Symbol('at'), 88.9, 168.91, 180], [Symbol('fields_autoplaced'), Symbol('yes')], [Symbol('effects'), [Symbol('font'), [Symbol('size'), 1.27, 1.27]], [Symbol('justify'), Symbol('right'), Symbol('bottom')]], [Symbol('uuid'), 'b0151a9d-aa1a-454b-8ee1-1399aba2d505']], [Symbol('label'), 'OSPI_CS', [Symbol('at'), 109.22, 118.11, 0], [Symbol('fields_autoplaced'), Symbol('yes')], [Symbol('effects'), [Symbol('font'), [Symbol('size'), 1.27, 1.27]], [Symbol('justify'), Symbol('left'), Symbol('bottom')]], [Symbol('uuid'), 'cea12bd2-510f-4dfa-9fcb-7230ada05b06']]]
+06-25 00:30:58 com_github_MitjaNemec_SwapStubs.swap_stubs 192:net 2 labels: [[Symbol('label'), 'OSPI_D7', [Symbol('at'), 109.22, 92.71, 0], [Symbol('fields_autoplaced'), Symbol('yes')], [Symbol('effects'), [Symbol('font'), [Symbol('size'), 1.27, 1.27]], [Symbol('justify'), Symbol('left'), Symbol('bottom')]], [Symbol('uuid'), '3a677cf2-107d-43be-a47d-2e37f7385500']], [Symbol('label'), 'OSPI_D7', [Symbol('at'), 88.9, 92.71, 180], [Symbol('fields_autoplaced'), Symbol('yes')], [Symbol('effects'), [Symbol('font'), [Symbol('size'), 1.27, 1.27]], [Symbol('justify'), Symbol('right'), Symbol('bottom')]], [Symbol('uuid'), 'b3a40af9-bd74-4cd8-b624-c9ae267a38f2']]]
+06-25 00:30:58 com_github_MitjaNemec_SwapStubs.swap_stubs 215:closest label 1: [Symbol('label'), 'OSPI_CS', [Symbol('at'), 88.9, 168.91, 180], [Symbol('fields_autoplaced'), Symbol('yes')], [Symbol('effects'), [Symbol('font'), [Symbol('size'), 1.27, 1.27]], [Symbol('justify'), Symbol('right'), Symbol('bottom')]], [Symbol('uuid'), 'b0151a9d-aa1a-454b-8ee1-1399aba2d505']]
+06-25 00:30:58 com_github_MitjaNemec_SwapStubs.swap_stubs 216:closest label 2: [Symbol('label'), 'OSPI_D7', [Symbol('at'), 109.22, 92.71, 0], [Symbol('fields_autoplaced'), Symbol('yes')], [Symbol('effects'), [Symbol('font'), [Symbol('size'), 1.27, 1.27]], [Symbol('justify'), Symbol('left'), Symbol('bottom')]], [Symbol('uuid'), '3a677cf2-107d-43be-a47d-2e37f7385500']]
+06-25 00:30:59 com_github_MitjaNemec_SwapStubs.swap_stubs 227:Schematics written
+06-25 00:30:59 com_github_MitjaNemec_SwapStubs.swap_stubs 234:Pad nets swapped
+06-25 00:30:59 com_github_MitjaNemec_SwapStubs.action_swap_stubs 137:Plugin successfully executed
+NoneType: None
