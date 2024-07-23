@@ -25903,6 +25903,10 @@
 		(uuid "0901b7c4-e952-4dc0-afef-93216dc5a49a")
 	)
 	(no_connect
+		(at 132.08 106.68)
+		(uuid "097ebae7-e65e-4e8a-9f26-63accefec54b")
+	)
+	(no_connect
 		(at 506.73 176.53)
 		(uuid "0fb7d75c-3f0c-411a-8d5c-1756906679fb")
 	)
@@ -25997,10 +26001,6 @@
 	(no_connect
 		(at 132.08 81.28)
 		(uuid "6b8bdeea-9816-4e77-b868-1fc96ad0438d")
-	)
-	(no_connect
-		(at 132.08 104.14)
-		(uuid "6d4c829e-dc0d-4c54-acce-b1869a99d59d")
 	)
 	(no_connect
 		(at 506.73 194.31)
@@ -26566,16 +26566,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 101.6) (xy 132.08 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "148f93c3-79bb-49d5-9331-7fb7e17e8798")
-	)
-	(wire
-		(pts
 			(xy 476.25 81.28) (xy 476.25 78.74)
 		)
 		(stroke
@@ -27023,16 +27013,6 @@
 			(type default)
 		)
 		(uuid "2fac222f-3b52-49b3-9fb1-acb3701f78b0")
-	)
-	(wire
-		(pts
-			(xy 102.87 99.06) (xy 132.08 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ffaef50-d666-47c6-bf6a-c763327c74fc")
 	)
 	(wire
 		(pts
@@ -28506,16 +28486,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 106.68) (xy 132.08 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "798b9786-19ff-455e-bc4f-f98c1c014386")
-	)
-	(wire
-		(pts
 			(xy 476.25 96.52) (xy 478.79 96.52)
 		)
 		(stroke
@@ -29656,6 +29626,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 104.14) (xy 132.08 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abee9069-09f0-438e-8f26-a77fd17facdc")
+	)
+	(wire
+		(pts
 			(xy 215.9 156.21) (xy 217.17 156.21)
 		)
 		(stroke
@@ -30766,6 +30746,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 101.6) (xy 132.08 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc427309-cb10-4ef6-abfd-9d67ee4beb3b")
+	)
+	(wire
+		(pts
 			(xy 240.03 44.45) (xy 245.11 44.45)
 		)
 		(stroke
@@ -31306,6 +31296,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 99.06) (xy 132.08 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6cfb2ad-89e5-4c05-8e91-7f6fd669ee13")
+	)
+	(wire
+		(pts
 			(xy 436.88 60.96) (xy 448.31 60.96)
 		)
 		(stroke
@@ -31551,6 +31551,25 @@
 			(type none)
 		)
 		(uuid e69fd73b-7e31-45e5-b1a2-acea509290c1)
+	)
+	(text_box "NOTE: REV1 Had SYS_CLK on M10, MCU_D7 on R13 and MCU_CLK on R14. Pins were swapped to have clocks go into MRCC_P pins"
+		(exclude_from_sim no)
+		(at 85.09 90.805 0)
+		(size 15.875 25.4)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "589dc587-01f4-49cf-98cd-e59d0877fe73")
 	)
 	(text_box "NOTE: Place 470nF Caps on VCCO Pins"
 		(exclude_from_sim no)
@@ -31826,6 +31845,17 @@
 			(justify left bottom)
 		)
 		(uuid "107187d2-043f-43a2-8881-a50fd08f3393")
+	)
+	(label "OSPI_CLK"
+		(at 102.87 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "124995d8-83b6-44ce-adb4-d8d87e975f44")
 	)
 	(label "DISP_VSYNC"
 		(at 302.26 53.34 0)
@@ -32113,6 +32143,17 @@
 		)
 		(uuid "35c3c92c-2a68-4fca-add7-2c578c732969")
 	)
+	(label "SYS_CLK"
+		(at 102.87 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "38de549a-e02a-48bc-9e0e-bfd3c601d893")
+	)
 	(label "OSPI_D0"
 		(at 82.55 95.25 180)
 		(fields_autoplaced yes)
@@ -32288,17 +32329,6 @@
 			(justify left bottom)
 		)
 		(uuid "50f0390b-9966-41f3-a66a-4fd394e15420")
-	)
-	(label "OSPI_D7"
-		(at 102.87 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "538ae57e-fac9-4dc8-a805-d6aaeb13222f")
 	)
 	(label "DISP_PWM"
 		(at 302.26 86.36 0)
@@ -32530,17 +32560,6 @@
 			(justify right bottom)
 		)
 		(uuid "6ab786a9-d936-4757-ba4b-c7de772715a7")
-	)
-	(label "OSPI_CLK"
-		(at 102.87 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6acb7413-df35-4813-a70a-6e0c248c54c1")
 	)
 	(label "TP_SDA"
 		(at 242.57 146.05 180)
@@ -33312,6 +33331,17 @@
 		)
 		(uuid "dbcaca80-02c5-4a58-b098-60cf8413a674")
 	)
+	(label "OSPI_D7"
+		(at 102.87 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc4e2ae8-3123-41fa-8730-1a449108979f")
+	)
 	(label "DISP_D5"
 		(at 242.57 107.95 180)
 		(fields_autoplaced yes)
@@ -33322,17 +33352,6 @@
 			(justify right bottom)
 		)
 		(uuid "dd16655e-0af6-4e94-8948-b5d6a56204d0")
-	)
-	(label "SYS_CLK"
-		(at 102.87 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "df5d470a-606f-4b2e-aef6-ae33c6ae1087")
 	)
 	(label "OSPI_D0_R"
 		(at 53.34 152.4 0)
