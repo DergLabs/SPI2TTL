@@ -25891,6 +25891,10 @@
 		(uuid "feb99b67-4331-42a2-ac13-dde7969ed6d3")
 	)
 	(no_connect
+		(at 132.08 137.16)
+		(uuid "0036afd9-7c23-403d-98c7-6f1954a42d79")
+	)
+	(no_connect
 		(at 506.73 214.63)
 		(uuid "061b39d9-d128-4bfe-954b-31c45907e905")
 	)
@@ -26059,6 +26063,10 @@
 		(uuid "9ade9076-0cfc-411d-b6ca-18f591992db1")
 	)
 	(no_connect
+		(at 318.77 114.3)
+		(uuid "9ce9061f-af5b-436d-b688-7e296311bcb3")
+	)
+	(no_connect
 		(at 132.08 73.66)
 		(uuid "9fc34517-8211-416f-adfa-245bf9a53152")
 	)
@@ -26079,8 +26087,20 @@
 		(uuid "ad5087f2-7f52-4658-af74-b5616f3207f0")
 	)
 	(no_connect
+		(at 132.08 134.62)
+		(uuid "aff19d88-1b11-4619-b509-79d50a1090a1")
+	)
+	(no_connect
+		(at 318.77 104.14)
+		(uuid "b0466455-09fe-41dc-8e4a-21d4b9be686c")
+	)
+	(no_connect
 		(at 481.33 240.03)
 		(uuid "b13b73ff-8323-4320-94ae-673993d3c1bc")
+	)
+	(no_connect
+		(at 318.77 116.84)
+		(uuid "b162a541-9157-4436-aee0-baaeaa3f252f")
 	)
 	(no_connect
 		(at 318.77 40.64)
@@ -26097,6 +26117,10 @@
 	(no_connect
 		(at 132.08 71.12)
 		(uuid "bfa802f8-b483-462a-8a33-4242ab8333ed")
+	)
+	(no_connect
+		(at 132.08 142.24)
+		(uuid "c0c5cca2-8104-4e85-8e15-1d76b93e91db")
 	)
 	(no_connect
 		(at 481.33 212.09)
@@ -36974,7 +36998,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "3.3K"
 			(at 59.69 229.87 90)
 			(effects
 				(font
@@ -38989,7 +39013,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "1K"
 			(at 125.095 204.47 0)
 			(effects
 				(font
@@ -39192,7 +39216,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "3.3K"
 			(at 59.69 204.47 90)
 			(effects
 				(font
@@ -40154,7 +40178,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "3.3K"
 			(at 59.69 217.17 90)
 			(effects
 				(font
@@ -40494,7 +40518,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "DNP"
 			(at 152.4 380.9999 0)
 			(effects
 				(font
@@ -42743,7 +42767,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "1K"
 			(at 125.095 237.49 0)
 			(effects
 				(font
@@ -44074,7 +44098,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "200R"
+		(property "Value" "3.3K"
 			(at 110.49 318.7699 0)
 			(effects
 				(font
@@ -45137,7 +45161,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "DNP"
 			(at 95.25 59.6899 0)
 			(effects
 				(font
@@ -45788,7 +45812,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "3.3K"
 			(at 59.69 242.57 90)
 			(effects
 				(font
@@ -47611,7 +47635,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15pF"
+		(property "Value" "DNP"
 			(at 187.96 381.0062 0)
 			(effects
 				(font
